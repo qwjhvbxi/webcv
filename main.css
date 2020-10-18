@@ -1,0 +1,115 @@
+
+* {
+font-family:helvetica,sans;
+font-size:12pt;
+}
+body {
+background:white;
+margin:0px;
+*color:white;
+}
+#container {
+padding:10px;
+max-width:60em;
+background:white;
+margin-left:10px;
+*color:white;
+}
+#lastup {
+margin-top:3em;
+}
+h1 {
+font-weight:bold;
+font-size:18pt;
+}
+span.title {
+font-size:14pt;
+padding-left:2em;
+white-space:nowrap;
+}
+h2 {
+font-weight:bold;
+font-size:13pt;
+text-transform:uppercase;
+padding-top:1em;
+}
+div.posizione {
+margin-bottom:1em;
+font-size:inherit;
+}
+div.left {
+display:table-cell;
+}
+div.right {
+display:table-cell;
+vertical-align:top; 
+padding:0px;
+}
+@media screen and (max-width: 600px) {
+   div.left { display:block;overflow:hidden; }
+   div.right { display:block; }
+   p.title span {display:block;font-size:14pt;padding-left:2em;}
+}
+span.periodo {
+display:block;
+width:12em;
+float:left;
+}
+span.luogo {
+display:block;
+}
+span.cosa {
+font-weight:bold;
+display:block;
+}
+span.dettagli {
+display:block;
+padding-top:0.7em;
+}
+h3 {
+font-size:12pt;
+font-weight:normal;
+text-transform:uppercase;
+}
+li {
+margin-bottom:0.5em;
+}
+li em {
+display:block;
+margin-bottom:0.5em;
+}
+span.spec {
+font-weight:bold;
+font-style:italic;
+}
+/*
+span.pub {
+text-decoration:underline;
+}
+*/
+.project {
+width:100%;
+display:block;
+overflow:hidden;
+}
+.project img {
+width:300px;
+border-radius: 8px;
+border:1px solid black;
+float:left;
+margin-right:20px;
+}
+.projectdesc {
+
+}
+.projectname {
+font-size:12pt;
+font-weight:bold;
+margin-bottom:10px;
+}
+.projectlink {
+margin-bottom:10px;
+}
+a {
+overflow-wrap:break-word;
+}
