@@ -1,19 +1,17 @@
 
 * {
-font-family:helvetica,sans;
+font-family:helvetica,sans;/*monospace*/
 font-size:12pt;
 }
 body {
 background:white;
 margin:0px;
-*color:white;
 }
 #container {
 padding:10px;
 max-width:60em;
 background:white;
 margin-left:10px;
-*color:white;
 }
 #lastup {
 margin-top:3em;
@@ -88,8 +86,8 @@ text-decoration:underline;
 }
 */
 .project {
-width:100%;
-display:block;
+margin-bottom:1em;
+font-size:inherit;
 overflow:hidden;
 }
 .project img {
@@ -97,7 +95,7 @@ width:300px;
 border-radius: 8px;
 border:1px solid black;
 float:left;
-margin-right:20px;
+margin:0px 20px 20px 0px;
 }
 .projectdesc {
 
