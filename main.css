@@ -2,6 +2,7 @@
 * {
 font-family:helvetica,sans;/*monospace*/
 font-size:12pt;
+line-height:1.2;
 }
 body {
 background:white;
@@ -9,7 +10,7 @@ margin:0px;
 }
 #container {
 padding:10px;
-max-width:65em;
+max-width:600px;
 background:white;
 margin-left:10px;
 }
@@ -75,6 +76,7 @@ margin-bottom:0.5em;
 li em {
 display:block;
 margin-bottom:0.5em;
+font-style:normal;
 }
 span.spec {
 font-weight:bold;
